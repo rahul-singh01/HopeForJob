@@ -1,0 +1,160 @@
+# Python - Recursive patterns
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.so
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/pip-wheel-metadata/
+**/share-python-wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+**/MANIFEST
+
+# Django - Recursive patterns
+**/*.log
+**/local_settings.py
+**/db.sqlite3
+**/db.sqlite3-journal
+**/media/
+**/staticfiles/
+**/.env
+**/.env.local
+**/.env.production
+**/.env.staging
+
+# Celery - Recursive patterns
+**/celerybeat-schedule
+**/celerybeat.pid
+
+# Virtual Environment - Recursive patterns
+**/venv/
+**/env/
+**/ENV/
+**/env.bak/
+**/venv.bak/
+**/.venv/
+
+# IDE - Recursive patterns
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+
+# OS - Recursive patterns
+**/.DS_Store
+**/.DS_Store?
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+# Node.js - Recursive patterns
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Next.js - Recursive patterns
+**/.next/
+**/out/
+**/build/
+
+# Next.js Environment Variables - Recursive patterns
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Vercel - Recursive patterns
+**/.vercel
+
+# TypeScript - Recursive patterns
+**/*.tsbuildinfo
+
+# ESLint - Recursive patterns
+**/.eslintcache
+
+# Turbo - Recursive patterns
+**/.turbo
+
+# Package Managers - Recursive patterns
+**/yarn.lock
+**/package-lock.json
+**/pnpm-lock.yaml
+
+# Testing - Recursive patterns
+**/coverage/
+**/.nyc_output
+**/.coverage
+**/htmlcov/
+**/.pytest_cache/
+**/.tox/
+
+# Jupyter Notebook - Recursive patterns
+**/.ipynb_checkpoints
+
+# Redis - Recursive patterns
+**/dump.rdb
+
+# Docker - Recursive patterns
+**/.dockerignore
+**/docker-compose.override.yml
+
+# Logs - Recursive patterns
+**/logs/
+**/*.log
+
+# Backup files - Recursive patterns
+**/*.bak
+**/*.backup
+**/*.old
+
+# Temporary files - Recursive patterns
+**/tmp/
+**/temp/
+**/.tmp/
+**/.temp/
+
+# Browser automation - Recursive patterns
+**/chromedriver*
+**/geckodriver*
+**/*.webp
+**/screenshots/
+
+# Secrets and credentials - Recursive patterns
+**/secrets.json
+**/credentials.json
+**/service-account.json
+**/.secrets/
+
+# Data files - Recursive patterns
+**/*.csv
+**/*.json
+!**/package.json
+!**/tsconfig.json
+!**/components.json
+**/*.xlsx
+**/*.xls
+
+# API keys and tokens - Recursive patterns
+**/.env*
+!**/.env.example
+
+# Migration cache files - Recursive patterns
+**/migrations/__pycache__/
+**/migrations/*.pyc
